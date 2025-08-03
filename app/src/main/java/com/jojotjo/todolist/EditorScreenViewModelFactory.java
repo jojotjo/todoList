@@ -3,8 +3,6 @@ package com.jojotjo.todolist;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
-import android.util.Log;
-import androidx.lifecycle.LiveData;
 
 public class EditorScreenViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     private final AppDataBase appDataBase;
